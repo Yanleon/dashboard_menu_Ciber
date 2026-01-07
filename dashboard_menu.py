@@ -6,7 +6,7 @@ from datetime import datetime
 
 # ========== CONFIGURACIÓN INICIAL ==========
 st.set_page_config(
-    page_title="Defense Center - Data Center",
+    page_title="Defense Center 1 - Data Center",
     page_icon="🛡️",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -531,4 +531,5 @@ with footer_col2:
 with footer_col3:
     if st.session_state.current_page == "vulnerabilidades":
         if st.button("📥 Exportar Reporte", type="secondary"):
+
             st.success("Reporte exportado exitosamente (simulación)")
